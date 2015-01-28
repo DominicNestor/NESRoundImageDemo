@@ -2,6 +2,10 @@ NESRoundImageDemo
 =================
 Eazy way to get a nice pic with round corner,shadow,border,support autolayout.
 
+## Install
+
+Just drag the NESRoundImage folder to you project.
+
 ## How to use
 
 1.using Autolayout:
