@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NESMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,9 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[NESMainViewController alloc] init];
+    
     return YES;
 }
 

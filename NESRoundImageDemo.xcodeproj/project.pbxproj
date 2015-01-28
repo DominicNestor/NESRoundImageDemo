@@ -12,6 +12,9 @@
 		8EFA7D2F1A787BD500FF80CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA7D2E1A787BD500FF80CC /* Images.xcassets */; };
 		8EFA7D321A787BD500FF80CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA7D301A787BD500FF80CC /* LaunchScreen.xib */; };
 		8EFA7D3E1A787BD500FF80CC /* NESRoundImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA7D3D1A787BD500FF80CC /* NESRoundImageDemoTests.m */; };
+		8EFA7D4A1A787C0B00FF80CC /* NESRoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA7D491A787C0B00FF80CC /* NESRoundImage.m */; };
+		8EFA7D4D1A787C6100FF80CC /* NESMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA7D4C1A787C6100FF80CC /* NESMainViewController.m */; };
+		8EFA7D4F1A787C8400FF80CC /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA7D4E1A787C8400FF80CC /* qrcode.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 		8EFA7D371A787BD500FF80CC /* NESRoundImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESRoundImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFA7D3C1A787BD500FF80CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFA7D3D1A787BD500FF80CC /* NESRoundImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NESRoundImageDemoTests.m; sourceTree = "<group>"; };
+		8EFA7D481A787C0B00FF80CC /* NESRoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESRoundImage.h; sourceTree = "<group>"; };
+		8EFA7D491A787C0B00FF80CC /* NESRoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESRoundImage.m; sourceTree = "<group>"; };
+		8EFA7D4B1A787C6100FF80CC /* NESMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESMainViewController.h; sourceTree = "<group>"; };
+		8EFA7D4C1A787C6100FF80CC /* NESMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESMainViewController.m; sourceTree = "<group>"; };
+		8EFA7D4E1A787C8400FF80CC /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		8EFA7D1B1A787BD500FF80CC = {
 			isa = PBXGroup;
 			children = (
+				8EFA7D4E1A787C8400FF80CC /* qrcode.png */,
+				8EFA7D471A787BF300FF80CC /* NESRoundImage */,
 				8EFA7D261A787BD500FF80CC /* NESRoundImageDemo */,
 				8EFA7D3A1A787BD500FF80CC /* NESRoundImageDemoTests */,
 				8EFA7D251A787BD500FF80CC /* Products */,
@@ -81,6 +91,8 @@
 				8EFA7D2E1A787BD500FF80CC /* Images.xcassets */,
 				8EFA7D301A787BD500FF80CC /* LaunchScreen.xib */,
 				8EFA7D271A787BD500FF80CC /* Supporting Files */,
+				8EFA7D4B1A787C6100FF80CC /* NESMainViewController.h */,
+				8EFA7D4C1A787C6100FF80CC /* NESMainViewController.m */,
 			);
 			path = NESRoundImageDemo;
 			sourceTree = "<group>";
@@ -109,6 +121,15 @@
 				8EFA7D3C1A787BD500FF80CC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EFA7D471A787BF300FF80CC /* NESRoundImage */ = {
+			isa = PBXGroup;
+			children = (
+				8EFA7D481A787C0B00FF80CC /* NESRoundImage.h */,
+				8EFA7D491A787C0B00FF80CC /* NESRoundImage.m */,
+			);
+			path = NESRoundImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +176,7 @@
 		8EFA7D1C1A787BD500FF80CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NES;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = NesTalk;
 				TargetAttributes = {
@@ -191,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFA7D4F1A787C8400FF80CC /* qrcode.png in Resources */,
 				8EFA7D321A787BD500FF80CC /* LaunchScreen.xib in Resources */,
 				8EFA7D2F1A787BD500FF80CC /* Images.xcassets in Resources */,
 			);
@@ -210,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFA7D4D1A787C6100FF80CC /* NESMainViewController.m in Sources */,
+				8EFA7D4A1A787C0B00FF80CC /* NESRoundImage.m in Sources */,
 				8EFA7D2D1A787BD500FF80CC /* AppDelegate.m in Sources */,
 				8EFA7D2A1A787BD500FF80CC /* main.m in Sources */,
 			);
