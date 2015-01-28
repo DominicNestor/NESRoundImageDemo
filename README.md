@@ -10,7 +10,7 @@ Eazy way to get a nice pic with round corner,shadow,border,support autolayout.
 NESRoundImage *image = [[NESRoundImage alloc] initWithImage:[UIImage imageNamed:@"qrcode"]];
 ````
 
-add the 'image' to any superview you want,and write the constraint code your self, the image with show correctly.
+add the 'image' to any superview you want,and write the constraint code your self, the image will show correctly.
 
 2.without autolayout:
 
