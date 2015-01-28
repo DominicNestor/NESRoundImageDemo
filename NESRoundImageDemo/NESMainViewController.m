@@ -24,7 +24,7 @@
 #if USE_AUTOLAYOUT
     NESRoundImage *image = [[NESRoundImage alloc] initWithImage:[UIImage imageNamed:@"qrcode"]];
 #else
-    NESRoundImage *image = [[NESRoundImage alloc] initWithFrame:CGRectMake(10, 30, 300, 200) image:[UIImage imageNamed:@"qrcode"]];;
+    NESRoundImage *image = [[NESRoundImage alloc] initWithFrame:CGRectMake(10, 30, 300, 200) image:[UIImage imageNamed:@"qrcode"]];
 #endif
     
     [self.view addSubview:image];
